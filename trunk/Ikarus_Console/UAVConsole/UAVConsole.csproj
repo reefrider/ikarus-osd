@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B4003389-763B-4E08-BB6A-1C2DE1DD81D5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UAVConsole</RootNamespace>
+    <AssemblyName>UAVConsole</AssemblyName>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>false</GenerateManifests>
+    <StartupObject>UAVConsole.Program</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>9D3732161B1C75DBF6AE907AE284496774D2EA7A</ManifestCertificateThumbprint>
+    <ManifestKeyFile>UAVConsole_TemporaryKey.pfx</ManifestKeyFile>
+    <SignManifests>false</SignManifests>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <NoWarn>
+    </NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlarmasSonoras.cs" />
+    <Compile Include="AntTracker.cs" />
+    <Compile Include="AviWriter.cs" />
+    <Compile Include="ConfigClasses\AntTrackerConfig.cs" />
+    <Compile Include="ConfigClasses\AntTrackerDatosAntena.cs" />
+    <Compile Include="ConfigClasses\AntTrackerDatosAvion.cs" />
+    <Compile Include="ConfigClasses\AntTrackerDebug.cs" />
+    <Compile Include="ConfigClasses\ElementoOSD.cs" />
+    <Compile Include="ConfigClasses\GenericConfigClass.cs" />
+    <Compile Include="ConfigClasses\GradosServos.cs" />
+    <Compile Include="ConfigClasses\IkarusAutopilotConfig.cs" />
+    <Compile Include="ConfigClasses\IkarusCompleteConfig.cs" />
+    <Compile Include="ConfigClasses\IkarusBasicConfig.cs" />
+    <Compile Include="ConfigClasses\IkarusGPSInfo.cs" />
+    <Compile Include="ConfigClasses\IkarusInfo.cs" />
+    <Compile Include="ConfigClasses\IkarusScreenConfig.cs" />
+    <Compile Include="ConfigClasses\PidInfo.cs" />
+    <Compile Include="ConfigClasses\ServoInfo.cs" />
+    <Compile Include="CRC.cs" />
+    <Compile Include="FormArranque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormArranque.Designer.cs">
+      <DependentUpon>FormArranque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConfigConsole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfigConsole.Designer.cs">
+      <DependentUpon>FormConfigConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConfigurarAntracker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfigurarAntracker.Designer.cs">
+      <DependentUpon>FormConfigurarAntracker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConfigurarTeclas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfigurarTeclas.Designer.cs">
+      <DependentUpon>FormConfigurarTeclas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditCharset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditCharset.designer.cs">
+      <DependentUpon>FormEditCharset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGestionRutas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGestionRutas.Designer.cs">
+      <DependentUpon>FormGestionRutas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIkarusConfigAutoPilot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIkarusConfigAutoPilot.Designer.cs">
+      <DependentUpon>FormIkarusConfigAutoPilot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIkarusConfigOSD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIkarusConfigOSD.Designer.cs">
+      <DependentUpon>FormIkarusConfigOSD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormJoystick.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormJoystick.Designer.cs">
+      <DependentUpon>FormJoystick.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormScreen.Designer.cs">
+      <DependentUpon>FormScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormActualizarFirmware.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormActualizarFirmware.Designer.cs">
+      <DependentUpon>FormActualizarFirmware.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoogleMaps\ImageCache.cs" />
+    <Compile Include="GoogleMaps\ImageQuery.cs" />
+    <Compile Include="GoogleMaps\IMapBackground.cs" />
+    <Compile Include="GoogleMaps\ListaMapas.cs" />
+    <Compile Include="GoogleMaps\MapaCalibrado.cs" />
+    <Compile Include="GoogleMaps\MapaInterpolado.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GoogleMaps\MapaInterpolado.Designer.cs">
+      <DependentUpon>MapaInterpolado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoogleMaps\MapControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GoogleMaps\MapControl.designer.cs">
+      <DependentUpon>MapControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoogleMaps\TaskImageDisk.cs" />
+    <Compile Include="GoogleMaps\TaskImageInet.cs" />
+    <Compile Include="GoogleMaps\WebMapBackgrnd.cs" />
+    <Compile Include="GoogleMaps\OziexplorerMapBackgrnd.cs" />
+    <Compile Include="GoogleMaps\PuntoF.cs" />
+    <Compile Include="GoogleMaps\Ruta.cs" />
+    <Compile Include="IkarusScreens\Instrumentos.cs" />
+    <Compile Include="Intrumentos\Instrumento_Altimeter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Intrumentos\Instrumento_Altimeter.Designer.cs">
+      <DependentUpon>Instrumento_Altimeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Intrumentos\Instrumento_DirectionalGyro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Intrumentos\Instrumento_DirectionalGyro.designer.cs">
+      <DependentUpon>Instrumento_DirectionalGyro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Intrumentos\Instrumento_Attitude.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Intrumentos\Instrumento_Attitude.designer.cs">
+      <DependentUpon>Instrumento_Attitude.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Intrumentos\IndicadorSlider.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Intrumentos\IndicadorSlider.Designer.cs">
+      <DependentUpon>IndicadorSlider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Intrumentos\Instrumento_knob.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Intrumentos\Instrumento_knob.Designer.cs">
+      <DependentUpon>Instrumento_knob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Intrumentos\Instrumento_VerticalSpeed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Intrumentos\Instrumento_VerticalSpeed.Designer.cs">
+      <DependentUpon>Instrumento_VerticalSpeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Intrumentos\Led.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Intrumentos\Led.Designer.cs">
+      <DependentUpon>Led.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Intrumentos\MedidorBaterias.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Intrumentos\MedidorBaterias.Designer.cs">
+      <DependentUpon>MedidorBaterias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Intrumentos\MedidorVertical.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Intrumentos\MedidorVertical.Designer.cs">
+      <DependentUpon>MedidorVertical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JoystickThread.cs" />
+    <Compile Include="Joystick_WMM.cs" />
+    <Compile Include="Modem\ModemAbstract.cs" />
+    <Compile Include="Modem\ModemAntTracker.cs" />
+    <Compile Include="Modem\PlaneState.cs" />
+    <Compile Include="MyWebServer.cs" />
+    <Compile Include="FormIkarusMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIkarusMain.Designer.cs">
+      <DependentUpon>FormIkarusMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoogleMaps\GeoPos.cs" />
+    <Compile Include="GoogleMaps\GoogleProxy.cs" />
+    <Compile Include="GoogleMaps\ImageProxy.cs" />
+    <Compile Include="GoogleMaps\IkarusMapControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GoogleMaps\IkarusMapControl.Designer.cs">
+      <DependentUpon>IkarusMapControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoogleMaps\MicrosoftProxy.cs" />
+    <Compile Include="GoogleMaps\WayPoint.cs" />
+    <Compile Include="Intrumentos\Instrumento_AirSpeed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Intrumentos\Instrumento_AirSpeed.Designer.cs">
+      <DependentUpon>Instrumento_AirSpeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modem\ModemVideo.cs" />
+    <Compile Include="Modem\ModemXbee.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormArranque.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormArranque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConfigConsole.resx">
+      <DependentUpon>FormConfigConsole.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConfigurarAntracker.resx">
+      <DependentUpon>FormConfigurarAntracker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConfigurarTeclas.resx">
+      <DependentUpon>FormConfigurarTeclas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditCharset.resx">
+      <DependentUpon>FormEditCharset.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGestionRutas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormGestionRutas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIkarusConfigAutoPilot.resx">
+      <DependentUpon>FormIkarusConfigAutoPilot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIkarusConfigOSD.resx">
+      <DependentUpon>FormIkarusConfigOSD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIkarusMain.resx">
+      <DependentUpon>FormIkarusMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormJoystick.resx">
+      <DependentUpon>FormJoystick.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormScreen.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormActualizarFirmware.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormActualizarFirmware.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoogleMaps\IkarusMapControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>IkarusMapControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoogleMaps\MapControl.resx">
+      <DependentUpon>MapControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intrumentos\Instrumento_knob.resx">
+      <DependentUpon>Instrumento_knob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intrumentos\Led.resx">
+      <DependentUpon>Led.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\FormCalibrarAmperimetro.resx">
+      <DependentUpon>FormCalibrarAmperimetro.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\FormCalibrarCopilot.resx">
+      <DependentUpon>FormCalibrarCopilot.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\FormCalibrarRSSI.resx">
+      <DependentUpon>FormCalibrarRSSI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\FormCalibrarServos.resx">
+      <DependentUpon>FormCalibrarServos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\FormConfigurarCopilot.resx">
+      <DependentUpon>FormConfigurarCopilot.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\FormDefaultConfig.resx">
+      <DependentUpon>FormDefaultConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\FormWizardsMenu.resx">
+      <DependentUpon>FormWizardsMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SenderUDP.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Singleton.cs" />
+    <Compile Include="USBXpress\AntenaTracker.cs" />
+    <Compile Include="USBXpress\UsbLayerFIRM.cs" />
+    <Compile Include="USBXpress\USBXpress64.cs" />
+    <Compile Include="USBXpress\USBXpress32.cs" />
+    <Compile Include="USBXpress\EmisoraUSB.cs" />
+    <Compile Include="ConfigClasses\FileCharset.cs" />
+    <Compile Include="USBXpress\FlightPlanUSB.cs" />
+    <Compile Include="USBXpress\IntelHEX.cs" />
+    <Compile Include="USBXpress\UsbLayerATC.cs" />
+    <Compile Include="USBXpress\USBXpress.cs" />
+    <Compile Include="USBXpress\WflyUplink.cs" />
+    <Compile Include="Wizards\FormCalibrarServos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\FormCalibrarServos.Designer.cs">
+      <DependentUpon>FormCalibrarServos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\FormCalibrarAmperimetro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\FormCalibrarAmperimetro.Designer.cs">
+      <DependentUpon>FormCalibrarAmperimetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\FormCalibrarCopilot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\FormCalibrarCopilot.Designer.cs">
+      <DependentUpon>FormCalibrarCopilot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\FormCalibrarRSSI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\FormCalibrarRSSI.Designer.cs">
+      <DependentUpon>FormCalibrarRSSI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\FormConfigurarCopilot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\FormConfigurarCopilot.Designer.cs">
+      <DependentUpon>FormConfigurarCopilot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\FormConfigurarServos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\FormConfigurarServos.Designer.cs">
+      <DependentUpon>FormConfigurarServos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\FormDefaultConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\FormDefaultConfig.Designer.cs">
+      <DependentUpon>FormDefaultConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\FormWizardsMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\FormWizardsMenu.Designer.cs">
+      <DependentUpon>FormWizardsMenu.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BaseApplicationManifest Include="Properties\app.manifest">
+      <SubType>Designer</SubType>
+    </BaseApplicationManifest>
+    <None Include="Resources\alt2.png" />
+    <None Include="Resources\asi_needle.bmp" />
+    <None Include="Resources\cc063057.jpg" />
+    <None Include="Resources\background.jpg" />
+    <None Include="Resources\attitude1.png" />
+    <None Include="Resources\attitude2.png" />
+    <None Include="Resources\attitude3.png" />
+    <None Include="Resources\attitude5.png" />
+    <None Include="Resources\autopilot_config.xml" />
+    <None Include="Resources\Copilot.jpg" />
+    <None Include="Resources\Failsafe.osd" />
+    <None Include="Resources\fw_anttrack.fw" />
+    <None Include="Resources\fw_uplink.fw" />
+    <None Include="Resources\hdg1.png" />
+    <None Include="Resources\hdg2.png" />
+    <None Include="Resources\firmware.fw" />
+    <None Include="Resources\HUD1.osd" />
+    <None Include="Resources\HUD2.osd" />
+    <None Include="Resources\HUD3.osd" />
+    <None Include="Resources\Ikarus.MCM" />
+    <None Include="Resources\plane3.png" />
+    <None Include="Resources\plane1.png" />
+    <None Include="Resources\plane2.png" />
+    <None Include="Resources\ICO-dossier-home_ico-64x64.PNG" />
+    <None Include="Resources\IkarusLogo.jpg" />
+    <None Include="Resources\madr-misc1.png" />
+    <None Include="Resources\misc2.png" />
+    <None Include="Resources\misc3.png" />
+    <None Include="Resources\osd_config.xml" />
+    <None Include="Resources\Resumen.osd" />
+    <None Include="Resources\sight_icon_2.jpg" />
+    <None Include="Resources\velocidad.png" />
+    <None Include="Resources\vsi1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DirectX.Capture\DirectX.Capture.csproj">
+      <Project>{8C0015DB-69E1-46E7-8705-3A4F8BE2E5E7}</Project>
+      <Name>DirectX.Capture</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DShowNET\DShowNET.csproj">
+      <Project>{CE009BFA-5EF6-4153-B2A1-2FA79698A9AE}</Project>
+      <Name>DShowNET</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Know_azul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Know_rojo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sphere-Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sphere-Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\video.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\video_red.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Reactor_Deploy="0" Reactor_Enabled="1" Reactor_Commands="" Reactor_Project="D:\Ikarus UAV project\UAVConsole - devel\UavConsole.nrproj" Reactor_Configuration="Release" Reactor_Output="D:\Ikarus UAV project\UAVConsole - devel\UAVConsole\bin\Release\UAVConsole_Secure\UAVConsole.exe" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

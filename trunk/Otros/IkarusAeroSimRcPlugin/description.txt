@@ -1,0 +1,6 @@
+This is a DEMO plugin to show some plugin capabilities of AeroSIM RC.
+
+Features:
+ - Aileron Autopilot (auto-level the model)
+ - OSD
+ - Simple HUD
