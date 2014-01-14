@@ -1,0 +1,607 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="search" href="http://ikarusosd.wikispaces.com/space/opensearch" type="application/opensearchdescription+xml" title="Búsqueda de Wikispaces (Ikarus OSD Wiki)" />
+<link rel="alternate" type="application/x-wiki" title="Edit This Page" href="/page/edit/home" />
+<link rel="alternate" title="ikarusosd : home - Edits" href="http://ikarusosd.wikispaces.com/page/xml/home?v=rss_2_0" type="application/rss+xml" />
+<link rel="alternate" title="ikarusosd : home - Discussion" href="http://ikarusosd.wikispaces.com/message/xml/home?v=rss_2_0" type="application/rss+xml" />
+<link rel="alternate" title="Ikarus OSD - All Changes" href="http://ikarusosd.wikispaces.com/wiki/xmla?v=rss_2_0" type="application/rss+xml" />
+<link rel="microsummary" href="/page/microsummary/home/edits"/>
+<link rel="microsummary" href="/page/microsummary/home/messages"/>
+<script type="text/javascript">
+var wikispaces_isUserLoggedIn = false;
+var wikispaces_isUserOrganizer = false;
+var wikispaces_isMain = true;
+var wikispaces_username = '';
+var wikispaces_spaceName = 'ikarusosd';
+var wikispaces_projectName = '';
+var wikispaces_wikiName = 'ikarusosd';
+var wikispaces_wikiText = 'Ikarus OSD';
+var wikispaces_isDefaultSpace = '1';
+var wikispaces_method = 'view';
+var wikispaces_object = 'page';
+var wikispaces_page = 'home';
+var wikispaces_id = '';
+var wikispaces_domain = 'wikispaces.com';
+var wikispaces_main_domain = 'wikispaces.com';
+var wikispaces_asset_url_prefix = 'http://c1.wikicdn.com';
+var wikispaces_beta_features = false;
+var wikispaces_isMobileSite = false;
+var wikispaces_isUploadCapable = true;
+var wikispaces_can_discuss = false;
+var wikispaces_has_gdocs = false;
+</script>
+  <title>Ikarus OSD - home</title>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="144x144" href="http://c1.wikicdn.com/_/z6371z4x/i/logo-144.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="http://c1.wikicdn.com/_/j5j77xz3/i/logo-114.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="http://c1.wikicdn.com/_/vq8j5432/i/logo-72.png" />
+  <link rel="apple-touch-icon" href="http://c1.wikicdn.com/_/38515190/i/logo-57.png" />
+  <link rel="shortcut icon" href="http://c1.wikicdn.com/_/55v9k02z/i/logo-16.png" />
+  <style type="text/css">
+
+  body { color: black; background-color: #8e9f94; font-family: arial,helvetica,sans-serif; font-size: 83%; margin: 0; min-width: 800px; padding: 0; }
+  #leftcolumn { position: absolute; left: 0; top: 0; width: 220px; margin-left: 5px; }
+  #rightcolumn { max-width: 1600px; padding-top: 30px; margin-left: 169px; margin-right: 8px; voice-family: "\"}\""; voice-family: inherit; margin-left: 161px; }
+  html>body #rightcolumn { margin-left: 221px; margin-right: 8px; }
+  #container { margin: 0; padding: 0; width: 100%; clear: both; }
+  #container .field { background-color: #FFF; }
+  .WikispacesContent { padding: 7px; }
+  #foot { margin-top: 5px; padding: 5px 0; font-size: 90%; text-align: center; line-height: 150%; clear: both; }
+
+  .WikiElement { color: #000000; }
+  .WikiElement img { padding: 0; vertical-align: top; border: 0; }
+  .WikiElement a { text-decoration: none; color: #0000ff; }
+  .WikiElement a:hover { text-decoration: underline; }
+  .WikiLicense img { vertical-align: text-bottom; }
+
+  .menu li { margin: 0; list-style: none; }
+  .menu a { text-decoration: none; }
+  .menu a img { margin-right: 6px; border: 0; text-decoration: none; }
+  .menu ul { padding: 0; margin: 0; }
+  .WikiActions a { font-size: 13px; }
+  .WikiActions li { padding-bottom: 6px; white-space: nowrap; }
+
+  .menu_head { border-bottom: 1px dotted #AAA; padding-top: 4px; margin-bottom: 4px; width: 200px; font-size: 90%; font-weight: bold; color: #000000; }
+
+  .WikiActions a { font-size: 90%; }
+  .WikiActions li { padding-bottom: 6px; white-space: nowrap; padding-left: 13px; }
+
+  .WikiSearch { margin: 0 0 10px 12px; }
+
+  .headerNav { position: relative; height: 24px; }
+  .width8 { width: 8px; }
+  .cornerImg { border: none; display: block !important; }
+
+  </style>
+<link rel="stylesheet" href="http://www.wikispaces.com/stylesheet/viewi/217420326D.gz.css" type="text/css" />
+<link rel="stylesheet" href="http://c1.wikicdn.com/s/gz/z88q319j-internal.css" type="text/css" />
+<link rel="stylesheet" href="http://c1.wikicdn.com/s/gz/5v39535j-internal-bootstrap.css" type="text/css" />
+<link rel="stylesheet" href="http://c1.wikicdn.com/s/gz/80q5k59q-internal-bootstrap-responsive.css" type="text/css" />
+
+<!--[if lte IE 8]>
+<style type="text/css">
+.WikiInternalHeaderNav {
+  margin: -3px;
+  zoom: 1;
+  filter:
+    progid:DXImageTransform.Microsoft.Shadow(Color=#999999, Strength=3, Direction=180),
+    progid:DXImageTransform.Microsoft.Shadow(Color=#999999, Strength=3, Direction=270);
+}
+</style>
+<![endif]-->
+<script src="http://c1.wikicdn.com/s/gz/948j2q0v-common.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+
+  var wsGoogleAccount = 'UA-80504-1';
+  _gaq.push(['_setAccount', wsGoogleAccount]);
+  _gaq.push(['_gat._anonymizeIp']);
+  _gaq.push(['_setDomainName', 'wikispaces.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  _gaq.push(['_setCustomVar', 2, 'Authenticated', 'Guest', 2]);
+</script></head>
+<body><div id="WikispacesWrapper" class="BannerDisplayed"><div id="WikispacesBanner" class="BannerDisplayed">You are not a member of this wiki. <a href="http://ikarusosd.wikispaces.com/space/join"> Join now</a>
+<script type="text/javascript">
+function dismissJoinWiki() {
+  ws.common.displayBanner(false);
+  jQuery.post("http://ikarusosd.wikispaces.com/wiki/dismissjoin");
+}
+</script> &nbsp;<a href='#' onclick='dismissJoinWiki(); return false;'>Dismiss</a></div><div id="WikispacesNoticeHolder"><div id="WikispacesNoticeJs" style="display: none"></div></div><div class="WikiInternalHeaderNav WikispacesContent WikispacesBs WikiElement floating"><div class="WikiInternalHeaderNavMenu"><span class="WikiInternalHeaderNavMenuArea guestUserName">guest</span><span class="slideMarker divider">|</span><span class="WikiInternalHeaderNavMenuArea"><a href="http://www.wikispaces.com/user/join?goto=http%3A%2F%2Fikarusosd.wikispaces.com%2Fspace%2Fjoin" rel="nofollow" class="WikispacesXDomainDialogLink">Únete</a></span><span class="divider">|</span><span class="WikiInternalHeaderNavMenuArea"><a class="WikispacesHelpTrigger" rel="nofollow" href="http://help.wikispaces.com/">Ayuda</a></span><span class="divider">|</span><span class="WikiInternalHeaderNavMenuArea"><a href="http://www.wikispaces.com/site/signin?goto=http%3A%2F%2Fikarusosd.wikispaces.com%2Fhome" rel="nofollow" class="WikispacesXDomainDialogLink">Iniciar Sesión</a></span></div></div>
+<div id="leftcolumn">
+  <div class="text-center">
+<table class="WikiLogoTable WikiElement">
+<tr>
+  <td>
+    <a href="http://ikarusosd.wikispaces.com/"><img src="http://c1.wikicdn.com/i/logo-shadow-40.png" alt="" width="40" height="40" /></a>
+  </td>
+  <td class="WikiLogoName">
+    <a href="http://ikarusosd.wikispaces.com/">Ikarus OSD</a>
+  </td>
+</tr>
+</table></div>
+    <div class="menu">
+    <div class="menu_head">Acciones</div>
+    <ul class="WikiActions WikiElement WikiControls">
+    <li id="WikiActionHome"><div><span class="WikiActionSupplemental" style="float: right;"></span><a href="http://ikarusosd.wikispaces.com/"><i class="icon-home ws-icon-fixed"></i></a><a href="http://ikarusosd.wikispaces.com/">Inicio del wiki</a></div></li>
+    <li id="WikiActionChanges"><div><span class="WikiActionSupplemental" style="float: right;"></span><a href="/wiki/changes"><i class="icon-time ws-icon-fixed"></i></a><a href="/wiki/changes">Cambios Recientes</a></div></li>
+    <li id="WikiActionPagesAndFiles"><div><span class="WikiActionSupplemental" style="float: right;"></span><a href="/space/content"><i class="icon-file-text-alt ws-icon-fixed"></i></a><a href="/space/content">Pages and Files</a></div></li>
+    <li id="WikiActionMembers"><div><span class="WikiActionSupplemental" style="float: right;"></span><a href="/wiki/members"><i class="icon-user ws-icon-fixed"></i></a><a href="/wiki/members">Miembros</a></div></li>
+</ul>
+    <form action="/search/view" method="post" class="WikiSearch WikiElement"><input class="WikiSearchInput" name="q" value="" placeholder="Búsqueda" type="text" /> </form>    <div class="menu_head">Navegación</div>
+    <div class="WikiCustomNav WikiElement wiki"><!-- ws:start:WikiTextIncludeRule:0:&lt;img src=&quot;http://www.wikispaces.com/site/embedthumbnail/include/navigation?w=200&amp;h=100&quot; class=&quot;WikiMedia WikiMediaInclude&quot; id=&quot;wikitext@@include@@component=&amp;quot;navigation&amp;quot;&quot; title=&quot;Include navigation: component=&amp;quot;navigation&amp;quot;&quot; /&gt; --><div class="includeBody"><div class="WikispacesNavbar" data-spaceid="6465412" data-navbarurl="/navbar">
+  <div id="WikispacesNavbarFavoritesEntry" data-entryid="535308" class="WikispacesNavbarEntry">
+  <div class="WikispacesNavbarEntryHeader">
+        <span class="ws-icon-fixed"><i class="WikispacesNavbarToggle WikispacesNavbarPlus icon-caret-right"></i><i class="WikispacesNavbarToggle WikispacesNavbarMinus icon-caret-down"></i></span><span>Favorites&nbsp;<i class="icon-star"></i></span>
+  </div>
+  <div class="WikispacesNavbarEntryItems" id="WikispacesNavbarFavoritesEntryItems">
+    <span class="hidden WikispacesNavbarNum">20</span>
+<ol>
+</ol>
+  </div>
+</div>  <div id="WikispacesNavbarAllPagesEntry" data-entryid="535310" class="WikispacesNavbarEntry WikispacesNavbarSortableEntry WikispacesNavbarRemovableEntry">
+  <div class="WikispacesNavbarEntryHeader">
+        <span class="ws-icon-fixed"><i class="WikispacesNavbarToggle WikispacesNavbarPlus icon-caret-right"></i><i class="WikispacesNavbarToggle WikispacesNavbarMinus icon-caret-down"></i></span><span>All Pages</span><i class="WikispacesNavbarSpinner icon-spinner icon-spin"></i><i class="WikispacesNavbarHeaderAction WikispacesNavbarRemoveEntry icon-remove"></i>
+  </div>
+  <div class="WikispacesNavbarEntryItems" id="WikispacesNavbarAllPagesEntryItems">
+    <span class="hidden WikispacesNavbarNum">20</span>
+<ol>
+  <li>
+    <a href="/home" data-uniqid="61803752">home</a>
+  </li>
+  <li>
+    <a href="/Comenzando" data-uniqid="62049944">Comenzando</a>
+  </li>
+  <li>
+    <a href="/Actualizar+Firmware" data-uniqid="62118142">Actualizar Firmware</a>
+  </li>
+  <li>
+    <a href="/Archivos" data-uniqid="61805496">Archivos</a>
+  </li>
+  <li>
+    <a href="/Asistentes+Ikarus" data-uniqid="62118450">Asistentes Ikarus</a>
+  </li>
+  <li>
+    <a href="/Caracter%C3%ADsticas" data-uniqid="62048956">Características</a>
+  </li>
+  <li>
+    <a href="/Conexiones" data-uniqid="62050536">Conexiones</a>
+  </li>
+  <li>
+    <a href="/Configura+piloto+autom%C3%A1tico" data-uniqid="62118210">Configura piloto automático</a>
+  </li>
+  <li>
+    <a href="/Configurar+consola" data-uniqid="62117832">Configurar consola</a>
+  </li>
+  <li>
+    <a href="/Configurar+Ikarus+OSD" data-uniqid="62118046">Configurar Ikarus OSD</a>
+  </li>
+  <li>
+    <a href="/Configurar+Joystick" data-uniqid="62118558">Configurar Joystick</a>
+  </li>
+  <li>
+    <a href="/Consola+vuelo+y+configuraci%C3%B3n" data-uniqid="62097894">Consola vuelo y configuración</a>
+  </li>
+  <li>
+    <a href="/Configurar+pantallas" data-uniqid="62118370">Configurar pantallas</a>
+  </li>
+  <li>
+    <a href="/Failsafe+y+mezclas" data-uniqid="62119018">Failsafe y mezclas</a>
+  </li>
+  <li>
+    <a href="/FAQ" data-uniqid="62086970">FAQ</a>
+  </li>
+  <li>
+    <a href="/Gesti%C3%B3n+de+rutas" data-uniqid="62118310">Gestión de rutas</a>
+  </li>
+  <li>
+    <a href="/Men%C3%BAs+del+Ikarus+modo+texto" data-uniqid="62118692">Menús del Ikarus modo texto</a>
+  </li>
+  <li>
+    <a href="/Pantalla+de+inicio" data-uniqid="62117684">Pantalla de inicio</a>
+  </li>
+  <li>
+    <a href="/Videos" data-uniqid="61806214">Videos</a>
+  </li>
+</ol>
+  </div>
+</div>  <div id="WikispacesNavbarTags">
+    </div>
+  <div id="WikispacesNavbarOptions" class="WikispacesNavbarEntry WikispacesContent WikispacesBs">
+    <div id="WikispacesNavbarOptionsEntryItems" class="WikispacesNavbarEntryItems row-fluid">
+      <form class="WikispacesNavbarNewTagNavbarForm form-inline text-center" action="/navbar/tag" method="post">
+        <input type="text" name="tagName" placeholder="Etiqueta" class="span6" />
+        <button name="submitTag" value="1" class="btn">Añadir</button>
+        <i class="icon-spinner icon-spin hidden"></i>
+      </form>
+      <form class="WikispacesNavbarShowAllPagesForm form-inline text-center" action="/navbar/update/535310" method="post">
+        <input type="hidden" name="status" value="A" />
+        <button class="WikispacesNavbarShowAllPages btn hidden" type="submit">Add "All Pages"</button>
+        <button class="WikispacesNavbarEditDone btn btn-primary">Done</button>
+        <i class="icon-spinner icon-spin hidden"></i>
+      </form>
+    </div>
+  </div>
+</div></div><!-- ws:end:WikiTextIncludeRule:0 --></div>    <div class="text-center"></div>
+  </div>
+  </div>
+
+<div id="rightcolumn">
+  <table cellpadding="0" cellspacing="0" border="0" id="container">
+    <tr>
+      <td class="width8"><img src="http://c1.wikicdn.com/_/x8428xqq/i/bTL.gif" width="8" height="8" alt="" class="corner" /></td>
+      <td style="border-top: 1px solid #AAA;" class="field" colspan="2"><img src="http://c1.wikicdn.com/_/4k0z606x/i/c.gif" width="1" height="1" alt="" class="cornerImg" /></td>
+      <td class="width8"><img src="http://c1.wikicdn.com/_/73z846vv/i/bTR.gif" width="8" height="8" alt="" class="corner" /></td>
+    </tr>
+    <tr>
+      <td style="border-left: 1px solid #AAA;" class="field"><br /></td>
+      <td valign="top" style="width: 100%;" class="field">
+        <div class="contentBox"><div class="innerContentBox">
+<div class="ws-menu-bar WikiControls WikispacesContent WikispacesBs">
+  
+    <span class="PageTitle"><a href="/home">home</a></span>
+      <div class="btn-group pull-right">
+                              <span class="btn disabled tipme" title="you do not have permission to edit this page"><i class="icon-pencil ws-icon-fixed"></i> Editar</span>
+                              <a class="btn tipme" title="view 14 discussion posts" href="/page/messages/home"><i class="icon-comments ws-icon-fixed"></i> 14</a>
+                              <a class="btn tipme" title="view 21 revisions" href="/page/history/home"><i class="icon-time ws-icon-fixed"></i> 21</a>
+                              <a class="btn ws-btn-more dropdown-toggle tipme" title="more options" href="/page/menu/home"><i class="icon-height-only ws-icon-fixed"></i>&hellip;</a>
+        <ul class="ws-more-menu dropdown-menu pull-right">
+              <li class=" dropdown"><a class=" ws-tag-dropdown-toggle" href="/page/tags/home"><span class="pull-right">0</span> <i class="icon-tag ws-icon-fixed"></i> Etiquetas</a>
+          <div class="dropdown-menu pull-right ws-tag-dropdown-menu">
+          
+
+
+
+<form action="#" name="WikiTagForm" class="WikiTagForm"><input type="hidden" name="wikispacesFormToken" value="db56f07904a5b7f88550831476b342dd48ff7c32"/><input type="hidden" name="wikispacesFormToken" value="db56f07904a5b7f88550831476b342dd48ff7c32"/>
+  <div class="WikiTagList">
+    <i class="icon-tag ws-action"></i>
+        <ul class="unstyled">
+          <li>No tags</li>
+        </ul>
+      </div>
+  </form>      </div>
+    </li>
+              <li class="divider"></li>
+            <li class=""><a class=" WikispacesDialogLink" href="http://ikarusosd.wikispaces.com/wiki/addmonitor?monitorLink=page%3Ahome"><i class="icon-eye-open ws-icon-fixed"></i> Notify</a>
+    </li>
+        <li class=""><a class=" WikispacesDialogLink" href="/page/rss/home"><i class="icon-rss ws-icon-fixed"></i> RSS</a>
+    </li>
+        <li class=""><a class="" href="/page/links/home"><i class="icon-link ws-icon-fixed"></i> Enlaces inversos</a>
+    </li>
+              <li class="divider"></li>
+            <li class=""><a class="" href="/page/code/home"><i class="icon-code ws-icon-fixed"></i> Source</a>
+    </li>
+        <li class=""><a class="" href="/home?f=print"><i class="icon-print ws-icon-fixed"></i> Print</a>
+    </li>
+        <li class=""><a class="" href="/page/pdf/home"><i class="icon-cloud-download ws-icon-fixed"></i> Export (PDF)</a>
+    </li>
+      </ul>  </div>
+  </div>
+
+
+
+
+  <textarea id="autosaveContent" style="display:none;" rows="1" cols="1"></textarea>
+  <div id="autosavePrompt" style="display:none;"></div>
+
+<div class="commentContainer">
+  <div class="commentSubject">
+  <div class="wiki wikiPage" id="content_view">
+  <!-- ws:start:WikiTextRemoteImageRule:34:&lt;img src=&quot;http://www.electronicarc.com/catalogo/images/ikarus.jpg&quot; alt=&quot;&quot; title=&quot;&quot; style=&quot;height: 105px; width: 175px;&quot; align=&quot;left&quot; /&gt; --><img src="http://www.electronicarc.com/catalogo/images/ikarus.jpg" alt="external image ikarus.jpg" title="external image ikarus.jpg" style="height: 105px; width: 175px;" align="left" /><!-- ws:end:WikiTextRemoteImageRule:34 --><br />
+<br />
+<hr />
+<!-- ws:start:WikiTextHeadingRule:0:&lt;h1&gt; --><h1 id="toc0"><!-- ws:end:WikiTextHeadingRule:0 --> </h1>
+ <!-- ws:start:WikiTextHeadingRule:2:&lt;h1&gt; --><h1 id="toc1"><!-- ws:end:WikiTextHeadingRule:2 --> </h1>
+ <!-- ws:start:WikiTextHeadingRule:4:&lt;h1&gt; --><h1 id="toc2"><!-- ws:end:WikiTextHeadingRule:4 --> </h1>
+ <!-- ws:start:WikiTextHeadingRule:6:&lt;h1&gt; --><h1 id="toc3"><!-- ws:end:WikiTextHeadingRule:6 --> </h1>
+ <!-- ws:start:WikiTextHeadingRule:8:&lt;h1&gt; --><h1 id="toc4"><!-- ws:end:WikiTextHeadingRule:8 --> </h1>
+ <!-- ws:start:WikiTextHeadingRule:10:&lt;h1&gt; --><h1 id="toc5"><!-- ws:end:WikiTextHeadingRule:10 --> </h1>
+ <!-- ws:start:WikiTextHeadingRule:12:&lt;h1&gt; --><h1 id="toc6"><a name="Bienvenidos a la Wiki de Ikarus OSD"></a><!-- ws:end:WikiTextHeadingRule:12 -->Bienvenidos a la Wiki de Ikarus OSD</h1>
+ <br />
+<hr />
+<br />
+<strong><span style="color: #000080;"> Sistema Completo de Ayuda a la Navegación</span></strong><br />
+<strong><span style="color: #000080;"> FPV/UAV</span></strong><br />
+<strong><span style="color: #000080;"><em>Manual del Usuario v0.91</em></span></strong><br />
+<br />
+<br />
+<!-- ws:start:WikiTextHeadingRule:14:&lt;h1&gt; --><h1 id="toc7"><a name="Introducción"></a><!-- ws:end:WikiTextHeadingRule:14 -->Introducción</h1>
+ <br />
+Gracias por utilizar “Ikarus OSD”. “Ikarus OSD” es el resultado de más de dos años de<br />
+desarrollo y pruebas, tanto de laboratorio como en el campo de vuelo por parte de un equipo de<br />
+entusiastas de los aviones radiocontrol, el vuelo FPV, la electrónica y la informática para intentar<br />
+obtener un OSD para FPV económico, que respondiera lo mejor posible a las necesidades de los<br />
+demás aficionados y amantes como nosotros de este hobby, aportando seguridad, comodidad y<br />
+diversión.<br />
+<br />
+<strong>Los objetivos planteados inicialmente eran:</strong><br />
+<ul><li>Sistema OSD de ayuda a la navegación que permitiera el vuelo FPV mostrando la</li></ul>información necesaria en pantalla (nivel de baterias, altura, velocidad, rumbo hacia casa,<br />
+etc) por si no se desea el uso de un ordenador.<br />
+<ul><li>Aportara seguridad, siendo capaz en caso de fallos de recepción, de devolver el avión a la</li></ul>zona inicial de vuelo, hasta que el piloto retome de forma segura el control.<br />
+<ul><li>Enviar la telemetría hacia el ordenador con toda la información del avión, de forma que</li></ul>permita su decodificación y representación en tiempo real y de forma amigable en la<br />
+pantalla del ordenador, a modo de consola de vuelo (con el menor hardware adicional<br />
+posible), permitiendo así eliminar dicha información de la imagen de video, reduciendo la<br />
+intrusión al mínimo.<br />
+<ul><li>Permitir el envío de cierta información al OSD desde tierra, para modificar por ejemplo el</li></ul>plan de vuelo, y por qué no, reemplazar la emisora de radiocontrol por un joystick,<br />
+completando así las funciones de la consola de vuelo.<br />
+<br />
+<strong>Enumerando brévemente las posibilidades que ofrece el OSD :</strong><br />
+<br />
+• Cinco pantallas completamente configurables: Tres de vuelo, Failsafe y Resumen.<br />
+• Manejo de dos cámaras.<br />
+• Ampliación del recorridos de servo para canal PAN cámara .<br />
+• Ruta compuesta por varios waypoints (hasta 31)<br />
+• Telemetría en tierra (usando una capturadora de video y el propio PC).<br />
+• Seguimiento del vuelo en el mapa.<br />
+• Piloto automático con vuelta a casa o navegación por waypoints<br />
+• Posibilidad de mezclas de “Elevon” o “Cola en V”<br />
+• Failsafe (activa automáticamente el piloto automático y vuelta a casa)<br />
+• Grabación de video y creación de archivo log con datos GPS del vuelo<br />
+<br />
+A continuación describimos un poco más detenidamente algunos de los aspectos de “Ikarus<br />
+OSD”. Esperamos que sea de su agrado, y lo disfruten tanto como nosotros. No duden en<br />
+contactarnos para dudas, cuestiones y sugerencias.<br />
+<br />
+© Ikarus Team Sevilla 2010
+  </div>
+
+<div id="pageEditor" class="editorWrapper editorLayer">
+  <iframe id="target_editor" name="target_editor" src="/s/blank.html" style="width:0px;height:0px;border:0"></iframe>
+    <form action="/page/edit/home" method="post" class="editorForm" id="editorForm"><input type="hidden" name="wikispacesFormToken" value="85e5a9ea509577cd01493527b31dc4e9871b21d4"/><div class="mimw"><input type="text" name="wikispaces_user_id" value="user-1389671901"/></div><div class="wsh"><input type="text" name="goto" autocomplete = "off"/></div><div class="jovise"><input type="text" name="mode" autocomplete = "off"/></div><div class="movkp"><input type="text" name="version" autocomplete = "off"/></div><div class="movkp"><input type="text" name="pageComments" autocomplete = "off"/></div><div class="movkp"><input type="text" name="saveAndContinue" autocomplete = "off"/></div><div class="jovise"><input type="text" name="comment" autocomplete = "off"/></div><div class="wsh"><input type="text" name="commentsDisabled" autocomplete = "off"/></div><div class="wsh"><input type="text" name="contentPresent" autocomplete = "off"/></div><div class="movkp"><input type="text" name="editorCleanup" autocomplete = "off"/></div><div class="movkp"><input type="text" name="WikispacesEditorContent" autocomplete = "off"/></div><input type="hidden" name="wikispacesASFormToken" value="0b78c4ae2c7be67f4daf0e8ede5d101c6d46bf3d"/>
+    <input type="hidden" title="goto" name="c5c4d59c5ee56e04a0b31f515c20f04e40bd19a4" value=""/>
+    <input type="hidden" title="mode" name="2c39d77791a6cb2383c4de1328e927ca755bbe94" autocomplete="off" value="visual"/>
+    <input type="hidden" title="version" name="3f3a0c5c8eaf3da11a506548a896cb0bf51c728a" autocomplete="off" value="377577184"/>
+    <input type="hidden" title="pageComments" name="a252c12197aa07b00620143917247cad2f62d3bc" autocomplete="off" value=""/>
+    <input type="hidden" title="saveAndContinue" name="16d977e5f0d6cda9252f70ed2c0b7b65e175a4f2" value="0"/>
+    <input type="hidden" title="comment" name="bd342489ec9d9c0a68e272e2cd4afaa5b939143a" value=""/>
+    <input type="hidden" title="commentsDisabled" name="8107d6821e7aea9ac306a304349836896fcd9b24" autocomplete="off" value=""/>
+    <input type="hidden" title="contentPresent" name="f50a6275baf62b8060df1aa2ca775c9deeeccc1b" autocomplete="off" value=""/>
+    <input type="hidden" title="editorCleanup" name="1dae53254ae6bc2adae2947f406679eae44ffa23" autocomplete="off" value=""/>
+
+    <textarea id="wsMainEditor" title="content" class="noContentHide" name="19237ca8aed976f6041bd3aa11ff6edd7f770450" style="width: 100%; height: 400px; position: absolute; top: -50000px; left: -50000px;" autocomplete="off"></textarea>
+
+  <noscript>
+    <h2>Javascript Required</h2>
+    <p>You need to enable Javascript in your browser to edit pages.</p>
+  </noscript>
+
+  </form>
+  
+  
+  <div id="plainTextEditor" style="position:relative;display:none" class="editorLayer" >
+    <textarea id="textEditor" class="autogrow"></textarea>
+    <p style="clear:both;" align="right"><a href="http://help.wikispaces.com/help.wikitext" class="WikispacesHelpLink" data-help="help.wikitext">help on how to format text</a></p>
+  </div>
+</div>
+
+
+
+
+  </div>
+  <div class="commentColumn WikispacesStream"><div class="WikispacesContent WikispacesBs"><div class="commentList"></div></div></div>
+</div>
+
+</div></div><div id="sentinel" style="clear:both"></div>      </td>
+      <td valign="top" class="field"><img src="http://c1.wikicdn.com/_/4k0z606x/i/c.gif" width="1" height="600" alt=""/></td>
+      <td style="border-right: 1px solid #AAA;" class="field"><br /></td>
+    </tr>
+    <tr>
+      <td class="bg width8"><img src="http://c1.wikicdn.com/_/9x256kq1/i/bBL.gif" width="8" height="8" alt="" class="corner" /></td>
+      <td style="border-bottom: 1px solid #AAA;" class="field" colspan="2"><img src="http://c1.wikicdn.com/_/4k0z606x/i/c.gif" width="1" height="1" alt="" class="cornerImg" /></td>
+      <td class="bg width8"><img src="http://c1.wikicdn.com/_/60jk45v8/i/bBR.gif" width="8" height="8" alt="" class="corner" /></td>
+    </tr>
+  </table>
+  <div id="foot">
+    <div class="WikiFooterNav WikiElement">
+<a href="http://help.wikispaces.com/" rel="nofollow" class="WikispacesHelpTrigger">Ayuda</a> &middot;
+<a href="http://www.wikispaces.com/about">Acerca de</a> &middot;
+<a href="http://blog.wikispaces.com/" target="_new">Blog</a> &middot;
+<a href="http://www.wikispaces.com/content/pricing" rel="nofollow">Precio</a> &middot;
+<a href="http://www.wikispaces.com/privacy" rel="nofollow">Privacidad</a> &middot;
+<a href="http://www.wikispaces.com/terms" rel="nofollow">Términos</a> &middot;
+<a href="http://www.wikispaces.com/site/help?url=http%3A%2F%2Fikarusosd.wikispaces.com%2Fhome" rel="nofollow"><strong>Apoyo</strong></a> &middot;
+<a href="/space/subscribe/upgrade"><strong>Elevar de categoría</strong></a>
+</div>    <div class="WikiLicense WikiElement">Contributions to http://ikarusosd.wikispaces.com/ are licensed under a <a rel="license" href="http://www.creativecommons.org/licenses/by-sa/3.0">Creative Commons Attribution Share-Alike 3.0 License</a>. <a rel="license" href="http://www.creativecommons.org/licenses/by-sa/3.0"><img src="http://c1.wikicdn.com/i/creativecommons/by-sa_3.0_80x15.png" width="85" height="15" alt="Creative Commons Attribution Share-Alike 3.0 License"/></a><br />Portions not contributed by visitors are Copyright 2014 Tangient LLC</div>  </div>
+</div>
+
+
+<div class="WikispacesHelp" style="display:none">
+  <div class="WikispacesHelpControls">
+    <span class="WikispacesHelpBreadcrumbs">
+      <span class="WikispacesHelpBreadcrumb WikispacesHelpBreadcrumbHome WikispacesHelpBreadcrumbCurrent">
+        <a href="http://help.wikispaces.com/" onclick="return ws.help.gotoBreadcrumb(0);">Página de inicio</a>
+      </span>
+      <span class="WikispacesHelpBreadcrumbsEllipsis" style="display: none;">
+        &gt; ...
+      </span>
+      <span class="WikispacesHelpBreadcrumbSpinner"></span>
+    </span>
+  </div>
+  <div class="WikispacesHelpContent wiki">Cargando...</div>
+
+  <div class="WikispacesGettingStartedControls">
+    <span class="WikispacesGettingStartedBreadcrumbs">
+      <span class="WikispacesHelpBreadcrumb WikispacesGettingStartedBreadcrumbHome WikispacesHelpBreadcrumbCurrent">
+        <a href="#" onclick="return ws.help.showGettingStartedHome();">Página de inicio</a>
+      </span>
+      <span class="WikispacesGettingStartedCategory"></span>
+    </span>
+
+    <a href="http://www.wikispaces.com/site/gettingstarted/off" style="position: absolute; right: 50px;">Apagar esta introducción</a>
+
+  </div>
+  <div class="WikispacesGettingStartedContent wiki">Cargando...</div>
+</div>
+</div>
+<script src="http://c1.wikicdn.com/s/gz/30zv63kz-editorc.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+ws.namespace('ws.context');
+ws.context = {
+  instance: {
+    id: '1',
+    url: 'wikispaces.com',
+    isMain: true,
+    supportsGoogleDocs: false
+  },
+  user: {
+    id: '',
+    username: '',
+    status: '',
+    imageUrl: 'http://c1.wikicdn.com/i/user_none_lg.jpg'
+  },
+  wiki: {
+    id: '6465412',
+    name: 'ikarusosd',
+    text: 'Ikarus OSD',
+    module: 'B'
+  },
+  project: {
+    id: '',
+    name: ''
+  },
+  space: {
+    id: '6465412',
+    name: 'ikarusosd',
+    isDefaultSpace: true
+  },
+
+  environment_name: 'prod',
+  userCanAdministerWiki: false,
+
+  path: {
+    object: 'page',
+    method: 'view',
+    page: 'home',
+    id: ''
+  },
+
+  settings: {
+    main_domain: 'wikispaces.com',
+    asset_url_prefix: 'http://c1.wikicdn.com',
+    beta_features: false,
+    isMobileSite: false,
+    isUploadCapable: true,
+    can_discuss: false,
+    has_gdocs: false
+  },
+  clockSkewMillis: 1389671901491 - ((window.performance && window.performance.timing.responseStart > 0) ? window.performance.timing.responseStart : (new Date()).getTime())
+}
+
+</script><script type="text/javascript">
+<!--
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+jQuery(document).ready(function() {
+  ws.help.attachHelpWindow();
+});
+
+jQuery(document).ready(function($) {
+  
+  function tipPlacement() {
+    return this.$element.closest('.ws-menu-bar .btn-group').is('.open') ? 'top' : 'bottom';
+  }
+
+  
+
+  $('.ws-menu-bar').each(function() {
+    var $menuBar = $(this);
+    var $tagDropdown = $menuBar.find('.ws-tag-dropdown-menu');
+    $menuBar.find('.tipme').tooltip({placement: tipPlacement, container: '.ws-menu-bar'});
+
+    
+    $menuBar.find('.ws-btn-more').click(ws.common.makeLinkClickFunction(function(e) {
+      if ($(this).closest('.ws-menu-bar .btn-group').is('.open')) {
+        ws.common.hideMorePageBar();
+      } else {
+        ws.common.showMorePageBar();
+      }
+    }));
+
+    $menuBar.on('click', '.ws-tag-dropdown-toggle', ws.common.makeLinkClickFunction(function(e) {
+      if ($(this).closest('.ws-menu-bar .dropdown').is('.open')) {
+        ws.common.hideTagDropdown();
+      } else {
+        ws.common.showTagDropdown();
+      }
+    }));
+
+    $(document.body).click(function(e) {
+      var $target = $(e.target);
+      if (!$target.closest('.ws-more-menu').closest('.ws-menu-bar').is($menuBar)
+          || $target.closest('a').is('.WikispacesDialogLink')) {
+        ws.common.hideMorePageBar();
+      }
+      if ($tagDropdown.length && !$target.closest('.ws-tag-dropdown-menu').is($tagDropdown)) {
+        ws.common.hideTagDropdown();
+      }
+    });
+    
+  });
+});
+
+
+jQuery(document).ready(function($) {
+  $('.ws-more-menu').on('click', 'a', function(e) {
+    if ($(this).is('.disabled')) {
+      e.preventDefault();
+    }
+  });
+});
+
+var wikispaces_can_edit = false;
+
+jQuery(document).ready(function() {
+  var editUrl = 'http://ikarusosd.wikispaces.com/page/edit/home?goto=http%3A%2F%2Fikarusosd.wikispaces.com%2Fhome';
+
+  jQuery('#editFromTemplate').change(function() {
+    window.location = ws.common.addUriParams(editUrl, [['template', jQuery(this).val()]]);
+  });
+});
+
+
+jQuery(document).ready(function() {
+  ws.editor.loadEditorLibs('http://www.wikispaces.com/site/editorlibs/es_ES/04745920.gz.js');
+});
+
+
+ws.editor.startEditor = function (moreCoreOptions, moreMainOptions) {
+  wikispaces_can_edit = true;
+
+  var coreOptions = {
+    'content_css': 'http://www.wikispaces.com/stylesheet/editori/217420326D.gz.css'
+  };
+
+  var mainOptions = {
+    'wssave_cancel_url': '/home',
+    'wsimage_upload_url': 'http://ikarusosd.wikispaces.com/file/multiupload',
+    'wsimage_max_file_size_mb': '10',
+    'wsimage_page_view_group': ''
+  };
+
+  ws.editor.loadEditor(jQuery.extend(coreOptions, moreCoreOptions), jQuery.extend(mainOptions, moreMainOptions));
+};
+
+  var wikispaces_page_version = '377577184';
+
+  jQuery(document).ready(function() {
+    ws.editor.enableButtons();
+  });
+
+
+
+--></script><!-- w2 160 mem:5:39(31) wki:13:15(2) tot:160:160(1) -->
+
+</body>
+</html>
